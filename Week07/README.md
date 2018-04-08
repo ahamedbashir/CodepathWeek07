@@ -12,16 +12,18 @@ Time spent: **3** hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.6.1
   - [X] GIF Walkthrough:
+  ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/01.%20XSS.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [X] Summary:
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2
+    - Fixed in version:
+  - [X] GIF Walkthrough: 
+  ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/02.%20User%20Enumeration.gif)
+  - [X] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
