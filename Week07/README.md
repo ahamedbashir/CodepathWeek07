@@ -6,7 +6,7 @@ Time spent: **3** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. Vulnerability Name: XSS Attack
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version:4.2
@@ -16,17 +16,17 @@ Time spent: **3** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [X] Summary:
+1. Vulnerability Name: User Enumeration
+  - [ ] Summary: User Enumeration to find a valid user
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
-    - Fixed in version:
+    - Fixed in version: 4.7.5
   - [X] GIF Walkthrough: 
   ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/02.%20User%20Enumeration.gif)
   - [X] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -35,24 +35,30 @@ Time spent: **3** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+3. Vulnerability Name: Stored XSS through embedded URL
+  - [ ] Summary: Stored XSS through embedded URL
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
+  ![alt text](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/3.XSS%20embedded%20.gif)
   - [ ] Steps to recreate: 
+    - make a post/page containing harmful embedded link such as: " [embed src='https://youtube.com/embed/123\x3csvg onload=alert(123)\x3e'][/embed] "
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - [Link 3](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
+    
+ 3. Vulnerability Name: Malicious Filename to XSS
+  - [ ] Summary: Malicious Filename to XSS
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: 
+  ![alt text](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/3.XSS%20embedded%20.gif)
   - [ ] Steps to recreate: 
+    - A WordPress admin uploads a malicious image file requested by a user this admin trusts or a popular malicious image that was spread via social media in the form of "attachment page". This involves social engineering. In the Proof of Concept the file name <img src=a onerror=alert(document.cookie)>.jpg was used. 
+    - Whenever the attachment file is opened in its own page, xss expolited script is run.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Link 4](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
 
 ## Assets
 
