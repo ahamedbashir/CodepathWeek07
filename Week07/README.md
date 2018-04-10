@@ -28,28 +28,28 @@ Time spent: **12** hours spent in total
     - [Link 2](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     
 3. Vulnerability Name: Stored XSS through embedded URL
-  - [ ] Summary: Stored XSS through embedded URL
+  - [X] Summary: Stored XSS through embedded URL
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
+  - [X] GIF Walkthrough: 
   ![alt text](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/3.XSS%20embedded%20.gif)
-  - [ ] Steps to recreate: 
+  - [X] Steps to recreate: 
     - make a post/page containing harmful embedded link such as: " [embed src='https://youtube.com/embed/123\x3csvg onload=alert(123)\x3e'][/embed] "
   - [ ] Affected source code:
     - [Link 3](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
     
- 3. Vulnerability Name: Malicious Filename to XSS
-  - [ ] Summary: Malicious Filename to XSS
+ 4. Vulnerability Name: Malicious Filename to XSS
+  - [X] Summary: Malicious Filename to XSS
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.6.1
-  - [ ] GIF Walkthrough: 
+  - [X] GIF Walkthrough: 
   ![alt text](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/3.XSS%20embedded%20.gif)
-  - [ ] Steps to recreate: 
+  - [X] Steps to recreate: 
     - A WordPress admin uploads a malicious image file requested by a user this admin trusts or a popular malicious image that was spread via social media in the form of "attachment page". This involves social engineering. In the Proof of Concept the file name <img src=a onerror=alert(document.cookie)>.jpg was used. 
     - Whenever the attachment file is opened in its own page, xss expolited script is run.
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 4](https://github.com/WordPress/WordPress/commit/c9e60dab176635d4bfaaf431c0ea891e4726d6e0)
 
 ## Assets
