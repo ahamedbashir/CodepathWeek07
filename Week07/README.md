@@ -61,7 +61,7 @@ List any additional assets, such as scripts or files
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with [Peek](https://github.com/phw/peek).
+GIFs created on Linux with [Peek](https://github.com/phw/peek).
 
 ## Notes
 
