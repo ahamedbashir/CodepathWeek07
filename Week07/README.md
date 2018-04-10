@@ -13,28 +13,20 @@ Time spent: **12** hours spent in total
     - Fixed in version: 4.6.1
   - [X] GIF Walkthrough:
   ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/01.%20XSS.gif)
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [X] Steps to recreate: 
+  - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. Vulnerability Name: User Enumeration
-  - [ ] Summary: User Enumeration to find a valid user
+2. Vulnerability Name: User Enumeration
+  - [X] Summary: User Enumeration to find a valid user
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
     - Fixed in version: 4.7.5
   - [X] GIF Walkthrough: 
   ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week07/02.%20User%20Enumeration.gif)
   - [X] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [X] Affected source code:
+    - [Link 2](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    
 3. Vulnerability Name: Stored XSS through embedded URL
   - [ ] Summary: Stored XSS through embedded URL
     - Vulnerability types: XSS
