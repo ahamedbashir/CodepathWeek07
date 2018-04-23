@@ -52,17 +52,10 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
 GIF description: In this exploit, we can see that the user who doesn't have admin previlege can access data and change it even though that particular user doesn't have permisssion to do so using the action form. An non-admin user can run any script without prior knowledge made by anyone else and let Cross-site request forgery by running autamated script.
 
-## BBonus Objective 2 (Green)
+## Bonus Objective 2 (Green)
 
 Vulnerability #1: Cross-Site Scripting (XSS) 2
 
 ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week08/Green3%20XSS%20Bonus.gif)
 
 GIF description: As we can see in the gif above, when a log in user access the feedback section, the feedback containing unwanted script redirect the user to a different webpage leading to a possible hacked site.
-
-
-
-
-## Notes
-
-Describe any challenges encountered while doing the work
