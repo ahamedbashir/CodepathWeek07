@@ -19,8 +19,12 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 Vulnerability #1: SQL Injection (SQLi)
 ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week08/Blue1%20SQLi.gif)
 
+As we can see in the gif above, trying to use ' or '1=1' injection in Blue color successfully modifed the database while it cannot do any change to the Red or Green colored system.
+
 Vulnerability #2: Session Hijacking/Fixation
 ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week08/Blue2%20Session%20Hijack.gif)
+
+In this hacking method, we can see that using another users session ID, random person without log in credectials can access the Blue system.
 
 
 ## Green
