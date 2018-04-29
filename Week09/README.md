@@ -7,6 +7,7 @@
 
 ## Google Cloud and Honeypot Setup:
    Google cloud is used to create three honeypot VM ( Ubuntu trusty). MHN server was intalled on mhn-admin VM while other three are being used as honeypot for attacks.
+   ![](https://github.com/ahamedbashir/WebSecurityCodepath/blob/master/Week09/Honeypot_VM.gif)
   
 ## NMAP attack
    nmap is used to attack my own honeypot.
